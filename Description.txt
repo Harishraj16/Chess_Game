@@ -1,0 +1,20 @@
+create a backend1,frontend folder
+
+cd backend1
+npm init -y
+npx tsc --init
+
+inside the tsconfig.json file change the 
+"rootDir": "./" to "rootDir": "./src"
+"outDir": "./" to "outDir": "./dist" 
+
+create a src folder inside backend directory
+cd src
+create a index.ts file
+
+edit index.js by adding the Simple server code from ws library github page
+
+npm i ws
+npm i @types/ws
+
+tsc -b   //tsc -b is a command to build the ts file into js file 
