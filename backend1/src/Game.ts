@@ -14,7 +14,7 @@ export class Game{
     }
 
     makeMove(socket: WebSocket,move:string){
-        //validation
+        //validation or authentication 
         //Is it this user move
         //Is the valid move
 
